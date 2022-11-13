@@ -15,4 +15,5 @@ function saveData(){
         "addr":addr
     })
     localStorage.setItem("users",JSON.stringify(user_records));
+    alert("order received")
 }
